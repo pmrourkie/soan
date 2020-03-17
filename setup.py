@@ -10,6 +10,7 @@ setup(
     author='Maarten Grootendorst',
     author_email='maartengrootendorst@gmail.com',
     packages=['soan'],
+    package_dir={'':'soan'},
     description='Used to analyze whatsapp data',
     long_description=open('README.md').read(),
     install_requires=['numpy', 'PIL', 'scipy', 'sklearn', 'regex', 're', 'emoji', 'seaborn',
